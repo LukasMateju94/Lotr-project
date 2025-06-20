@@ -1,9 +1,6 @@
 # Lotr-project
-React projekt k trilogii Pána prstenů.
 
-# Úvod
-
-Vytvořil jsem projekt na filmovou trilogii Pána prstenů.
+Vytvořil jsem react projekt na filmovou trilogii Pána prstenů.
 
 ## První strana
 
