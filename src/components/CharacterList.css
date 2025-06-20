@@ -1,0 +1,13 @@
+.character-list {
+    margin-bottom: 50px;
+}
+
+.character-list ul {
+    columns: 4;
+    padding: 0;
+    list-style-type: none;
+}
+
+.character-list li {
+    padding: 5px;
+}

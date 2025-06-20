@@ -1,0 +1,23 @@
+header {
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+
+.active {
+    color: #f7f322;
+}
+
+a:not(.active) {
+    color: #e2e8f0;
+}

@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background:#383737;
+  color:#e2e8f0;
+  overflow-x: hidden;
+}
+
+.intro-section {
+  display:flex;
+  justify-content:center;
+  margin: 50px 100px;
+}
+
+
+.movie-section {
+  margin: 50px 100px;
+  min-height:200px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  gap: 50px;
+}
+
+.detail-section {
+  margin: 50px 100px;
+}
+
+.quote-section {
+  margin: 50px 100px;
+  text-align: center;
+}
+
+.error-section {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.error-section h2 {
+  font-size: 40px;
+}
+
+.error-section p {
+  font-size: 30px;
+}
