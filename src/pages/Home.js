@@ -1,19 +1,15 @@
-import Intro from '../components/Intro';
-import OneMovie from '../components/OneMovie';
-import MovieTabs from '../components/MovieTabs';
+import Intro from '../components/Intro/Intro';
+import OneMovie from '../components/OneMovie/OneMovie';
+import MovieTabs from '../components/MovieTabs/MovieTabs';
 import intro from '../intro';
 import movies from '../data';
-import { useEffect, useState } from 'react';
-
 
 const Home = () => {
-    const [randomText, setRandomText] = useState('')
+    const getRandomText = (texts) => {
+        return texts[Math.floor(Math.random() * texts.length)];
+    };
 
-    useEffect(() => {
-        const text = intro[0].text
-        const getRandomText = Math.floor(Math.random() * text.length)
-        setRandomText(text[getRandomText])
-    }, [])
+    const randomText = getRandomText(intro[0].text);
 
     return <div>
         <section className='intro-section'>

@@ -1,5 +1,5 @@
-import CharacterQuotes from '../components/CharacterQuotes';
-import CharacterList from '../components/CharacterList';
+import CharacterQuotes from '../components/CharacterQuotes/CharacterQuotes';
+import CharacterList from '../components/CharacterList/CharacterList';
 
 const QuotePage = () => {
 

@@ -1,0 +1,14 @@
+.character-quote input {
+margin-right: 10px;
+}
+
+.error {
+    color: #fa2828;
+    margin: 10px;
+}
+
+.character-quote div p {
+    font-size: 24px;
+    color: #f7f454;
+    min-height: 100px;
+}

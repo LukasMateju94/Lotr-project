@@ -48,3 +48,14 @@ body {
 .error-section p {
   font-size: 30px;
 }
+
+footer {
+    background:#383737;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
